@@ -1,0 +1,37 @@
+%podstawowa jednostka
+ u#:=4/9pt#;
+%dodatkowe pochodne jednostki
+ em#:=10pt#;
+ ex#:=3pt#;
+ cap#:=7pt#;
+ thin#:=1/3pt#;
+ thick#:=5/6pt#;
+ o#:=1/5pt#;
+ u#:=4/9pt#;
+ mg#=4/5pt#;
+ el#:=15/16cap#;
+
+define_pixels(em,ex,cap,u,mg,el);
+
+ font_size em#;
+ font_slant 0;
+ font_normal_space 1/3em#;
+ font_normal_stretch 1/5em#;
+ font_normal_shrink 1/6em#;
+ font_x_height ex#;
+ font_quad em#;
+
+%font_extra_space 15u#;
+FunkcjaFi=(1+sqrt5)/2;
+
+\input tabela
+\input l_i
+\input l_s
+\input l_E
+
+%ligtable "f": "f" =: oct"013", "i" |=: oct"020", skipto 1;
+%ligtable "o": "b": "p": "e" kern .5u#, "o" kern .5u#, "x" kern-.5u#,
+%1:: "!" kern u#;
+
+end
+

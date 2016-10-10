@@ -1,0 +1,18 @@
+
+beginchar("E",10u#+0.2em#,12u#,5u#); "Litera E";
+w:=10u;
+h:=FunkcjaFi*w;
+y1=y6=0;
+y3=y4=h;
+y2=y5;
+x1=x2=x3=0;
+x4=FunkcjaFi*x5=x6=w;
+(y3-y2)=FunkcjaFi*(y2-y1);
+draw z1..z6 withpen pensquare scaled 7;
+draw z2..z5 withpen pensquare scaled 7;
+draw z3..z4 withpen pensquare scaled 7;
+draw z1..z3 withpen pensquare scaled 7;
+%draw z1..z3 withpen pensquare xscaled 14 rotated 38;
+labels(range 1 thru 6);
+endchar;
+

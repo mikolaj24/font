@@ -1,0 +1,24 @@
+def Aogonek    =  129  enddef;
+def Cacute     =  130  enddef;
+def Eogonek    =  134  enddef;
+def Lslash     =  138  enddef;
+def Nacute     =  139  enddef;
+def Oacute     =  211  enddef;
+def Sacute     =  145  enddef;
+def Zacute     =  153  enddef;
+def Zdotaccent =  155  enddef;
+def aogonek    =  161  enddef;
+def cacute     =  162  enddef;
+def eacute     =  166  enddef;
+def lslash     =  170  enddef;
+def nacute     =  171  enddef;
+def oacute     =  243  enddef;
+def sacute     =  177  enddef;
+def zacute     =  185  enddef;
+def zdotaccent =  187  enddef;
+
+font_normal_space 11u#;
+font_normal_stretch 9u#;
+font_normal_shrink 5u#;
+font_quad 100u#;
+font_extra_space 15u#;
