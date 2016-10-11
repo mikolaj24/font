@@ -16,9 +16,3 @@ def oacute     =  243  enddef;
 def sacute     =  177  enddef;
 def zacute     =  185  enddef;
 def zdotaccent =  187  enddef;
-
-font_normal_space 11u#;
-font_normal_stretch 9u#;
-font_normal_shrink 5u#;
-font_quad 100u#;
-font_extra_space 15u#;

@@ -1,5 +1,5 @@
 
-beginchar ("i", 10u#, 12u#, 0);
+beginchar ("a", 10u#, 12u#, 0);
 
   % lewa odsadzka
   shl := 2.25u;

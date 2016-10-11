@@ -25,8 +25,7 @@ define_pixels(em,ex,cap,u,mg,el);
 FunkcjaFi=(1+sqrt5)/2;
 
 \input tabela
-\input l_i
-\input l_s
+\input l_a
 \input l_E
 
 %ligtable "f": "f" =: oct"013", "i" |=: oct"020", skipto 1;
