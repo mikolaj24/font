@@ -14,7 +14,7 @@ test.pdf: test.dvi litery.tfm litery.600pk
 	dvipdf test.dvi
 
 push:
-	git cm ",,,,"`git rev-list --full-history --all --abbrev-commit --count`.`date +%Y%m%d` ; git push --all ; git push --all mirek
+	git cm ",,,,"`git rev-list --full-history --all --abbrev-commit --count`.`date +%Y%m%d` ; git push --all 
 
 clean:
 	rm -f *.aux *.log *.dvi *.*pk *.*[0-9]gf *.tfm *.pdf
